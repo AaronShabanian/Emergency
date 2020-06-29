@@ -18,6 +18,8 @@ public class upload extends MainActivity {
         toinsurance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.i("myTag", "This is my message");
+
                 openInsurance();
             }
         });
