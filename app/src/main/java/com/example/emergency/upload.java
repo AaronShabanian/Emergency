@@ -3,26 +3,26 @@ package com.example.emergency;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.view.View;
 import android.widget.Button;
+import android.view.View;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
-    private Button button;
+public class upload extends AppCompatActivity {
+    private Button toinsurance;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        button= (Button) findViewById(R.id.Personal);
-        button.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.upload);
+        toinsurance= (Button) findViewById(R.id.goto_insurance);
+        toinsurance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openPersonal();
+                openInsurance();
             }
         });
     }
-    public void openPersonal(){
-        Intent intent= new Intent(this, upload.class);
+    public void openInsurance(){
+        Intent intent= new Intent(this, insurance.class);
         startActivity(intent);
     }
 }
