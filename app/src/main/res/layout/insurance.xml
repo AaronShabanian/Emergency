@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/backblocker"
-        android:layout_width="482dp"
-        android:layout_height="774dp"
+        android:layout_width="409dp"
+        android:layout_height="777dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -78,14 +78,14 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="95dp"
-        android:layout_height="60dp"
+        android:layout_width="96dp"
+        android:layout_height="62dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.052"
+        app:layout_constraintVertical_bias="0.021"
         app:srcCompat="@drawable/white" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
