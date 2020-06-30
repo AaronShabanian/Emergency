@@ -10,6 +10,7 @@ import android.os.Bundle;
 
 public class upload extends MainActivity {
     private Button toinsurance;
+    public static String summary="";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
