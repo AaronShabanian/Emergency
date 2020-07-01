@@ -9,6 +9,7 @@ import android.os.Bundle;
 
 public class choose extends AppCompatActivity {
     private Button texts;
+    private Button scanner;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,9 +21,20 @@ public class choose extends AppCompatActivity {
                 totext();
             }
         });
+        scanner= findViewById(R.id.scanner);
+        scanner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                toscan();
+            }
+        });
     }
     public void totext(){
         Intent intent= new Intent(this, textUpload.class);
+        startActivity(intent);
+    }
+    public void toscan(){
+        Intent intent= new Intent(this, Scan.class);
         startActivity(intent);
     }
 }

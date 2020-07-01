@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".textUpload">
+    tools:context=".Scan">
 
     <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="414dp"
-        android:layout_height="792dp"
+        android:id="@+id/imageView6"
+        android:layout_width="407dp"
+        android:layout_height="791dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/textnoback" />
+        app:srcCompat="@drawable/scan" />
 </androidx.constraintlayout.widget.ConstraintLayout>
