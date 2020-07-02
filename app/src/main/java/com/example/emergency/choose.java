@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.os.Bundle;
 
-public class choose extends AppCompatActivity {
+public class choose extends upload {
     private Button texts;
     private Button scanner;
     @Override

@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class textUpload extends AppCompatActivity {
+public class textUpload extends choose {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
