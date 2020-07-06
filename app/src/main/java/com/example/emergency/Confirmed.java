@@ -8,24 +8,24 @@ import android.view.View;
 import android.widget.Button;
 import android.os.Bundle;
 
-public class textUpload extends choose {
-    private Button save;
+public class Confirmed extends AppCompatActivity {
+    private Button tohome;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_text_upload);
-        save= findViewById(R.id.save);
-        save.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_confirmed);
+        tohome= findViewById(R.id.home);
+        tohome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.i("myTag", "Data Saved");
+                Log.i("myTag", "To home");
 
-                saves();
+                gohome();
             }
         });
     }
-    public void saves(){
-        Intent intent= new Intent(this, Confirmed.class);
+    public void gohome(){
+        Intent intent= new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }
