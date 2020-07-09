@@ -144,16 +144,16 @@
         "source": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\build\\intermediates\\res\\merged\\debug\\layout_upload.xml.flat",
-        "source": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\src\\main\\res\\layout\\upload.xml"
-    },
-    {
         "merged": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\build\\intermediates\\res\\merged\\debug\\drawable_choose.png.flat",
         "source": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\src\\main\\res\\drawable\\choose.png"
+    },
+    {
+        "merged": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\build\\intermediates\\res\\merged\\debug\\layout_upload.xml.flat",
+        "source": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\src\\main\\res\\layout\\upload.xml"
     },
     {
         "merged": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white.jpeg.flat",
