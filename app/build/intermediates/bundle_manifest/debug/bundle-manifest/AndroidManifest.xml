@@ -25,6 +25,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.emergency.access" />
         <activity android:name="com.example.emergency.DriveUpload" />
         <activity android:name="com.example.emergency.Confirmed" />
         <activity android:name="com.example.emergency.settings" />

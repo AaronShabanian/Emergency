@@ -1565,6 +1565,7 @@ id filter_chip
 id fitToContents
 id fixed
 id forever
+id gDrive
 id general
 id ghost_view
 id ghost_view_holder
@@ -1817,6 +1818,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_access
 layout activity_choose
 layout activity_confirmed
 layout activity_drive_upload

@@ -24,6 +24,10 @@
         "source": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_access.xml.flat",
+        "source": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\src\\main\\res\\layout\\activity_access.xml"
+    },
+    {
         "merged": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
