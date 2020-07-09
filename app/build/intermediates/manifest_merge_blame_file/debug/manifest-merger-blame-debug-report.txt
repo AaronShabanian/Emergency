@@ -13,187 +13,65 @@
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:4:5-66
 11-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:4:22-64
-12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:24:5-79
-12-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:24:22-76
-13    <uses-permission android:name="android.permission.WAKE_LOCK" />
-13-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:25:5-68
-13-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:25:22-65
-14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-14-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
-14-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
-15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-15-->[com.google.firebase:firebase-iid:20.0.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/3c4e290373603ac47b60cc2b51b68fc3/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
-15-->[com.google.firebase:firebase-iid:20.0.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/3c4e290373603ac47b60cc2b51b68fc3/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
-16
-17    <application
-17-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:6:5-29:19
-18        android:allowBackup="true"
-18-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:7:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.1.0] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/b2b51ad2129f7ae88186ad90508b79ab/core-1.1.0/AndroidManifest.xml:24:18-86
-20        android:debuggable="true"
-21        android:icon="@mipmap/ic_launcher"
-21-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:8:9-43
-22        android:label="@string/app_name"
-22-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:9:9-41
-23        android:roundIcon="@mipmap/ic_launcher_round"
-23-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:10:9-54
-24        android:supportsRtl="true"
-24-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:11:9-35
-25        android:testOnly="true"
-26        android:theme="@style/AppTheme"
-26-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:12:9-40
-27        android:usesCleartextTraffic="true" >
-27-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:13:9-44
-28        <activity android:name="com.example.emergency.DriveUpload" />
-28-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:14:9-58
-28-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:14:19-46
-29        <activity android:name="com.example.emergency.Confirmed" />
-29-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:15:9-47
-29-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:15:19-44
-30        <activity android:name="com.example.emergency.settings" />
-30-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:16:9-46
-30-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:16:19-43
-31        <activity android:name="com.example.emergency.Scan" />
-31-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:17:9-42
-31-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:17:19-39
-32        <activity android:name="com.example.emergency.textUpload" />
-32-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:18:9-48
-32-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:18:19-45
-33        <activity android:name="com.example.emergency.choose" />
-33-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:19:9-44
-33-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:19:19-41
-34        <activity android:name="com.example.emergency.insurance" />
-34-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:20:9-47
-34-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:20:19-44
-35        <activity android:name="com.example.emergency.upload" />
-35-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:21:9-44
-35-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:21:19-41
-36        <activity android:name="com.example.emergency.MainActivity" >
-36-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:22:9-28:20
-36-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:22:19-47
-37            <intent-filter>
-37-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:23:13-27:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:24:17-69
-38-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:24:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:26:17-77
-40-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:26:27-74
-41            </intent-filter>
-42        </activity>
-43
-44        <receiver
-44-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
-45            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-45-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
-46            android:enabled="true"
-46-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
-47            android:exported="false" >
-47-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
-48        </receiver>
-49        <receiver
-49-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
-50            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-50-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
-51            android:enabled="true"
-51-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
-52            android:exported="true"
-52-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
-53            android:permission="android.permission.INSTALL_PACKAGES" >
-53-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
-54            <intent-filter>
-54-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
-55                <action android:name="com.android.vending.INSTALL_REFERRER" />
-55-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
-55-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
-56            </intent-filter>
-57        </receiver>
-58
-59        <service
-59-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
-60            android:name="com.google.android.gms.measurement.AppMeasurementService"
-60-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
-61            android:enabled="true"
-61-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
-62            android:exported="false" />
-62-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
-63        <service
-63-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
-64            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-64-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
-65            android:enabled="true"
-65-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
-66            android:exported="false"
-66-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
-67            android:permission="android.permission.BIND_JOB_SERVICE" />
-67-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/6af98df3ae2e9eba5027061d10c6b472/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
-68        <service
-68-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/4cf11f806248f69485acbfe366b0122b/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:27:9-33:19
-69            android:name="com.google.firebase.components.ComponentDiscoveryService"
-69-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/4cf11f806248f69485acbfe366b0122b/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:28:13-84
-70            android:directBootAware="true"
-70-->[com.google.firebase:firebase-common:19.3.0] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
-71            android:exported="false" >
-71-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/4cf11f806248f69485acbfe366b0122b/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:29:13-37
-72            <meta-data
-72-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/4cf11f806248f69485acbfe366b0122b/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
-73                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-73-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/4cf11f806248f69485acbfe366b0122b/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
-74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/4cf11f806248f69485acbfe366b0122b/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
-75            <meta-data
-75-->[com.google.firebase:firebase-iid:20.0.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/3c4e290373603ac47b60cc2b51b68fc3/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
-76                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-76-->[com.google.firebase:firebase-iid:20.0.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/3c4e290373603ac47b60cc2b51b68fc3/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
-77                android:value="com.google.firebase.components.ComponentRegistrar" />
-77-->[com.google.firebase:firebase-iid:20.0.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/3c4e290373603ac47b60cc2b51b68fc3/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
-78        </service>
-79
-80        <receiver
-80-->[com.google.firebase:firebase-iid:20.0.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/3c4e290373603ac47b60cc2b51b68fc3/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
-81            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-81-->[com.google.firebase:firebase-iid:20.0.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/3c4e290373603ac47b60cc2b51b68fc3/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
-82            android:exported="true"
-82-->[com.google.firebase:firebase-iid:20.0.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/3c4e290373603ac47b60cc2b51b68fc3/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
-83            android:permission="com.google.android.c2dm.permission.SEND" >
-83-->[com.google.firebase:firebase-iid:20.0.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/3c4e290373603ac47b60cc2b51b68fc3/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
-84            <intent-filter>
-84-->[com.google.firebase:firebase-iid:20.0.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/3c4e290373603ac47b60cc2b51b68fc3/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
-85                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-85-->[com.google.firebase:firebase-iid:20.0.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/3c4e290373603ac47b60cc2b51b68fc3/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
-85-->[com.google.firebase:firebase-iid:20.0.2] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/3c4e290373603ac47b60cc2b51b68fc3/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
-86            </intent-filter>
-87        </receiver>
-88
-89        <provider
-89-->[com.google.firebase:firebase-common:19.3.0] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
-90            android:name="com.google.firebase.provider.FirebaseInitProvider"
-90-->[com.google.firebase:firebase-common:19.3.0] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
-91            android:authorities="com.example.emergency.firebaseinitprovider"
-91-->[com.google.firebase:firebase-common:19.3.0] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
-92            android:exported="false"
-92-->[com.google.firebase:firebase-common:19.3.0] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
-93            android:initOrder="100" />
-93-->[com.google.firebase:firebase-common:19.3.0] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
-94
-95        <activity
-95-->[com.google.android.gms:play-services-base:17.0.0] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-96            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-96-->[com.google.android.gms:play-services-base:17.0.0] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-97            android:exported="false"
-97-->[com.google.android.gms:play-services-base:17.0.0] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-98-->[com.google.android.gms:play-services-base:17.0.0] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-99
-100        <meta-data
-100-->[com.google.android.gms:play-services-basement:17.0.0] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-101            android:name="com.google.android.gms.version"
-101-->[com.google.android.gms:play-services-basement:17.0.0] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-102            android:value="@integer/google_play_services_version" />
-102-->[com.google.android.gms:play-services-basement:17.0.0] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-103    </application>
-104
-105</manifest>
+12
+13    <application
+13-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:6:5-29:19
+14        android:allowBackup="true"
+14-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] /Users/eugenekim/.gradle/caches/transforms-2/files-2.1/03736cf4bc3669a69d502627b70a527e/core-1.1.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:8:9-43
+18        android:label="@string/app_name"
+18-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:9:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:10:9-54
+20        android:supportsRtl="true"
+20-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:12:9-40
+23        android:usesCleartextTraffic="true" >
+23-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:13:9-44
+24        <activity android:name="com.example.emergency.DriveUpload" />
+24-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:14:9-58
+24-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:14:19-46
+25        <activity android:name="com.example.emergency.Confirmed" />
+25-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:15:9-47
+25-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:15:19-44
+26        <activity android:name="com.example.emergency.settings" />
+26-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:16:9-46
+26-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:16:19-43
+27        <activity android:name="com.example.emergency.Scan" />
+27-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:17:9-42
+27-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:17:19-39
+28        <activity android:name="com.example.emergency.textUpload" />
+28-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:18:9-48
+28-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:18:19-45
+29        <activity android:name="com.example.emergency.choose" />
+29-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:19:9-44
+29-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:19:19-41
+30        <activity android:name="com.example.emergency.insurance" />
+30-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:20:9-47
+30-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:20:19-44
+31        <activity android:name="com.example.emergency.upload" />
+31-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:21:9-44
+31-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:21:19-41
+32        <activity android:name="com.example.emergency.MainActivity" >
+32-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:22:9-28:20
+32-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:22:19-47
+33            <intent-filter>
+33-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:23:13-27:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:24:17-69
+34-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:24:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:26:17-77
+36-->/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/AndroidManifest.xml:26:27-74
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>

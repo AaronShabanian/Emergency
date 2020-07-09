@@ -88,24 +88,24 @@
         "source": "/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/res/drawable/insurancenoback.jpg"
     },
     {
-        "merged": "/Users/eugenekim/Documents/GitHub/Emergency/app/build/intermediates/res/merged/debug/layout_activity_drive_upload.xml.flat",
-        "source": "/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/res/layout/activity_drive_upload.xml"
-    },
-    {
         "merged": "/Users/eugenekim/Documents/GitHub/Emergency/app/build/intermediates/res/merged/debug/layout_activity_settings.xml.flat",
         "source": "/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/eugenekim/Documents/GitHub/Emergency/app/build/intermediates/res/merged/debug/layout_activity_drive_upload.xml.flat",
+        "source": "/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/res/layout/activity_drive_upload.xml"
     },
     {
         "merged": "/Users/eugenekim/Documents/GitHub/Emergency/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/eugenekim/Documents/GitHub/Emergency/app/build/intermediates/res/merged/debug/layout_upload.xml.flat",
-        "source": "/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/res/layout/upload.xml"
-    },
-    {
         "merged": "/Users/eugenekim/Documents/GitHub/Emergency/app/build/intermediates/res/merged/debug/layout_activity_text_upload.xml.flat",
         "source": "/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/res/layout/activity_text_upload.xml"
+    },
+    {
+        "merged": "/Users/eugenekim/Documents/GitHub/Emergency/app/build/intermediates/res/merged/debug/layout_upload.xml.flat",
+        "source": "/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/res/layout/upload.xml"
     },
     {
         "merged": "/Users/eugenekim/Documents/GitHub/Emergency/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -156,12 +156,12 @@
         "source": "/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/eugenekim/Documents/GitHub/Emergency/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/Users/eugenekim/Documents/GitHub/Emergency/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",
         "source": "/Users/eugenekim/Documents/GitHub/Emergency/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/eugenekim/Documents/GitHub/Emergency/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/eugenekim/Documents/GitHub/Emergency/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/eugenekim/Documents/GitHub/Emergency/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
