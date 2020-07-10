@@ -8,6 +8,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 public class DriveUpload extends AppCompatActivity {
+
     private WebView drive;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,6 @@ public class DriveUpload extends AppCompatActivity {
         WebSettings webSettings = drive.getSettings();
         webSettings.setJavaScriptEnabled(true);
         drive.setWebViewClient(new WebViewClient());
-        drive.loadUrl("https://drive.google.com/drive/u/0/my-drive");
+        drive.loadUrl("https://m.box.com/browse/0/upload");
     }
 }
