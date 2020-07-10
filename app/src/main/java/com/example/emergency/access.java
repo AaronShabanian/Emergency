@@ -17,6 +17,6 @@ public class access extends AppCompatActivity {
         WebSettings webSettings = driver.getSettings();
         webSettings.setJavaScriptEnabled(true);
         driver.setWebViewClient(new WebViewClient());
-        driver.loadUrl("https://drive.google.com/drive/u/0/my-drive");
+        driver.loadUrl("https://m.box.com/browse/0");
     }
 }
