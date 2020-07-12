@@ -16,6 +16,7 @@ public class upload extends MainActivity {
     private Button will;
     private Button legal;
     public static String summary="";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

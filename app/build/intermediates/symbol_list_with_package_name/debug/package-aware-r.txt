@@ -1525,6 +1525,7 @@ id clear_text
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id companyEditText
 id confirm_button
 id container
 id content
@@ -1547,6 +1548,7 @@ id dimensions
 id direct
 id disableHome
 id doctype
+id doctypeEditText
 id drive
 id dropdown_menu
 id edit_query
@@ -1644,9 +1646,11 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id number
+id numberEditText
 id off
 id on
 id other
+id otherEditText
 id outline
 id packed
 id parallax

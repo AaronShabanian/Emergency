@@ -30,6 +30,7 @@
         app:layout_constraintVertical_bias="0.297">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/companyEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Company" />
@@ -47,6 +48,7 @@
         app:layout_constraintVertical_bias="0.351">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/doctypeEditText"
             android:layout_width="293dp"
             android:layout_height="52dp"
             android:hint="Document Name" />
@@ -64,6 +66,7 @@
         app:layout_constraintVertical_bias="0.414">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/numberEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Number" />
@@ -81,6 +84,7 @@
         app:layout_constraintVertical_bias="0.489">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/otherEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Other" />
