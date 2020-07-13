@@ -43,6 +43,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.box.androidsdk.content.auth.OAuthActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="true" />
+        <activity
+            android:name="com.box.androidsdk.content.auth.BlockedIPErrorActivity"
+            android:launchMode="singleInstance" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
