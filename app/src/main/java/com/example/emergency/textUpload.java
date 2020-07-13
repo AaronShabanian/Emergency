@@ -16,7 +16,7 @@ import java.io.IOException;
 
 import static android.util.Log.println;
 
-public class textUpload extends choose {
+public class textUpload extends upload {
     private Button save;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
