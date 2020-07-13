@@ -28,6 +28,8 @@ import com.box.androidsdk.content.requests.BoxResponse;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.FileInputStream;
 
 import static android.util.Log.println;
 
