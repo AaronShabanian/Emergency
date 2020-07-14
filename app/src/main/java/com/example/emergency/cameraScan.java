@@ -92,7 +92,6 @@ public class cameraScan extends Activity {
                 document.add(image);
                 document.close();
 
-
             } catch (IOException | DocumentException e) {
                 e.printStackTrace();
             }
@@ -101,7 +100,6 @@ public class cameraScan extends Activity {
 
 
     }
-
 
 
 
