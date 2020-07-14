@@ -94,7 +94,7 @@ public class cameraScan extends Activity {
 
             } catch (IOException | DocumentException e) {
                 e.printStackTrace();
-                
+
             }
         }
 
