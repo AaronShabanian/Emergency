@@ -9,14 +9,31 @@ import android.view.View;
 import android.widget.Button;
 import android.os.Bundle;
 import android.widget.EditText;
-
+import com.box.androidsdk.content.BoxApiFile;
+import com.box.androidsdk.content.BoxApiFolder;
+import com.box.androidsdk.content.BoxConfig;
+import com.box.androidsdk.content.BoxConstants;
+import com.box.androidsdk.content.BoxException;
+import com.box.androidsdk.content.BoxFutureTask;
+import com.box.androidsdk.content.auth.BoxAuthentication;
+import com.box.androidsdk.content.models.BoxEntity;
+import com.box.androidsdk.content.models.BoxError;
+import com.box.androidsdk.content.models.BoxFile;
+import com.box.androidsdk.content.models.BoxFolder;
+import com.box.androidsdk.content.models.BoxItem;
+import com.box.androidsdk.content.models.BoxIteratorItems;
+import com.box.androidsdk.content.models.BoxSession;
+import com.box.androidsdk.content.requests.BoxRequestsFile;
+import com.box.androidsdk.content.requests.BoxResponse;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.FileInputStream;
 
 import static android.util.Log.println;
 
-public class textUpload extends choose {
+public class textUpload extends upload {
     private Button save;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +88,11 @@ public class textUpload extends choose {
         myWriter.close();
 
         Log.i("file created?", file.exists() + "");
+        BoxConfig.CLIENT_ID = "eamauh3g5ff0dggp0geew0c2jme1vpwg";
+        BoxConfig.CLIENT_SECRET = "iMBBMDrz5quVYyIxxnFh9yJmEJtzJm2u";
+        BoxConfig.REDIRECT_URL = "https://thecoviddata.com/";
+        BoxSession session = new BoxSession(textUpload.this);
+        session.authenticate();
 
     }
 

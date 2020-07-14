@@ -124,6 +124,7 @@ attr behavior_overlapTop
 attr behavior_peekHeight
 attr behavior_saveFlags
 attr behavior_skipCollapsed
+attr borderDrawable
 attr borderWidth
 attr borderlessButtonStyle
 attr bottomAppBarStyle
@@ -269,6 +270,7 @@ attr daySelectedStyle
 attr dayStyle
 attr dayTodayStyle
 attr defaultQueryHint
+attr desaturateOnPress
 attr dialogCornerRadius
 attr dialogPreferredPadding
 attr dialogTheme
@@ -493,6 +495,7 @@ attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
 attr logo
 attr logoDescription
+attr maskDrawable
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogTheme
 attr materialAlertDialogTitleIconStyle
@@ -756,6 +759,12 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color box_accent
+color box_background
+color box_hint_foreground
+color box_logo_background
+color box_logo_description
+color box_primary_text
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1010,9 +1019,14 @@ dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
 dimen appcompat_dialog_background_inset
+dimen box_body_material
+dimen box_text_size_subhead_material
+dimen box_text_size_title_material
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
+dimen collaboration_cell_height
+dimen collaboration_thumb_size
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -1082,6 +1096,7 @@ dimen hint_pressed_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen keyline_margin
 dimen material_emphasis_disabled
 dimen material_emphasis_high_type
 dimen material_emphasis_medium
@@ -1344,6 +1359,12 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable blue_highlight_rectangle
+drawable box_circle_mask
+drawable boxlogo_white
+drawable boxsdk_dialog_warning
+drawable boxsdk_thumb_background
+drawable btn_blue_bordered
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1384,6 +1405,7 @@ drawable design_snackbar_background
 drawable findes
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_box_contentsdk_add_grey_24dp
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_edit_black_24dp
@@ -1424,6 +1446,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable scan
 drawable settings
+drawable teal_rectangle
 drawable test_custom_background
 drawable textblank
 drawable textnoback
@@ -1508,8 +1531,21 @@ id banking
 id barrier
 id beginning
 id blocking
+id body
 id bottom
+id box_account_description
+id box_account_initials
+id box_account_title
+id box_avatar_image
+id box_avatar_initials
+id boxsdk_accounts_list
 id buttonPanel
+id by_common
+id by_common_header
+id by_org
+id by_org_header
+id by_org_unit
+id by_org_unit_header
 id cancel_button
 id car
 id center
@@ -1558,6 +1594,8 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id expires_on
+id expires_on_header
 id fade
 id fill
 id fill_horizontal
@@ -1592,6 +1630,10 @@ id imageView6
 id imageView7
 id info
 id invisible
+id issued_by_header
+id issued_on
+id issued_on_header
+id issued_to_header
 id italic
 id item_touch_helper_previous_elevation
 id kin
@@ -1647,7 +1689,10 @@ id notification_main_column
 id notification_main_column_container
 id number
 id numberEditText
+id oauth_container
+id oauthview
 id off
+id ok
 id on
 id other
 id otherEditText
@@ -1657,10 +1702,13 @@ id parallax
 id parent
 id parentPanel
 id parent_matrix
+id password_edit
 id password_toggle
+id password_view
 id peekHeight
 id percent
 id pin
+id placeholder
 id progress_circular
 id progress_horizontal
 id radio
@@ -1711,6 +1759,7 @@ id src_in
 id src_over
 id standard
 id start
+id stop_screen_txt
 id stretch
 id submenuarrow
 id submit_area
@@ -1739,7 +1788,14 @@ id textinput_helper_text
 id time
 id title
 id titleDividerNoCustom
+id title_separator
 id title_template
+id to_common
+id to_common_header
+id to_org
+id to_org_header
+id to_org_unit
+id to_org_unit_header
 id top
 id topPanel
 id tosettings
@@ -1754,6 +1810,9 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username_edit
+id username_view
+id validity_header
 id view_offset_helper
 id visible
 id wide
@@ -1830,6 +1889,13 @@ layout activity_main
 layout activity_scan
 layout activity_settings
 layout activity_text_upload
+layout blocked_ip_error
+layout boxsdk_activity_oauth
+layout boxsdk_alert_dialog_text_entry
+layout boxsdk_avatar_item
+layout boxsdk_choose_auth_activity
+layout boxsdk_list_item_account
+layout boxsdk_list_item_new_account
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1884,6 +1950,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout ssl_certificate
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_design_checkbox
@@ -1930,7 +1997,57 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
+string blocked_ip_error_message
 string bottom_sheet_behavior
+string boxsdk_Authenticating
+string boxsdk_Authentication_fail
+string boxsdk_Authentication_fail_forbidden
+string boxsdk_Authentication_fail_url_mismatch
+string boxsdk_Go_back
+string boxsdk_Please_wait
+string boxsdk_Security_Warning
+string boxsdk_Select_an_account_to_use
+string boxsdk_There_are_problems_with_the_security_certificate_for_this_site
+string boxsdk_Use_a_different_account
+string boxsdk_alert_dialog_cancel
+string boxsdk_alert_dialog_ok
+string boxsdk_alert_dialog_password
+string boxsdk_alert_dialog_text_entry
+string boxsdk_alert_dialog_username
+string boxsdk_box_app_signature
+string boxsdk_button_ok
+string boxsdk_button_okay
+string boxsdk_bytes
+string boxsdk_common_name
+string boxsdk_details
+string boxsdk_error_fatal_refresh
+string boxsdk_error_network_connection
+string boxsdk_error_terms_of_service
+string boxsdk_expires_on
+string boxsdk_gigabytes
+string boxsdk_issued_by
+string boxsdk_issued_on
+string boxsdk_issued_to
+string boxsdk_kilobytes
+string boxsdk_megabytes
+string boxsdk_no_offline_access
+string boxsdk_no_offline_access_detail
+string boxsdk_no_offline_access_todo
+string boxsdk_org_name
+string boxsdk_org_unit
+string boxsdk_ssl_error_details
+string boxsdk_ssl_error_warning_DATE_INVALID
+string boxsdk_ssl_error_warning_EXPIRED
+string boxsdk_ssl_error_warning_ID_MISMATCH
+string boxsdk_ssl_error_warning_INVALID
+string boxsdk_ssl_error_warning_NOT_YET_VALID
+string boxsdk_ssl_error_warning_UNTRUSTED
+string boxsdk_ssl_should_not_proceed
+string boxsdk_terabytes
+string boxsdk_unable_to_connect
+string boxsdk_unable_to_connect_detail
+string boxsdk_unable_to_connect_todo
+string boxsdk_validity_period
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2402,6 +2519,11 @@ style Theme_AppCompat_Light_Dialog_MinWidth
 style Theme_AppCompat_Light_DialogWhenLarge
 style Theme_AppCompat_Light_NoActionBar
 style Theme_AppCompat_NoActionBar
+style Theme_BoxSdk
+style Theme_BoxSdk_Body
+style Theme_BoxSdk_Button
+style Theme_BoxSdk_Subhead
+style Theme_BoxSdk_Title
 style Theme_Design
 style Theme_Design_BottomSheetDialog
 style Theme_Design_Light
@@ -2699,6 +2821,7 @@ styleable AppCompatTextHelper android_textAppearance android_drawableTop android
 styleable AppCompatTextView android_textAppearance autoSizeMaxTextSize autoSizeMinTextSize autoSizePresetSizes autoSizeStepGranularity autoSizeTextType drawableBottomCompat drawableEndCompat drawableLeftCompat drawableRightCompat drawableStartCompat drawableTint drawableTintMode drawableTopCompat firstBaselineToTopHeight fontFamily fontVariationSettings lastBaselineToBottomHeight lineHeight textAllCaps textLocale
 styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle actionBarDivider actionBarItemBackground actionBarPopupTheme actionBarSize actionBarSplitStyle actionBarStyle actionBarTabBarStyle actionBarTabStyle actionBarTabTextStyle actionBarTheme actionBarWidgetTheme actionButtonStyle actionDropDownStyle actionMenuTextAppearance actionMenuTextColor actionModeBackground actionModeCloseButtonStyle actionModeCloseDrawable actionModeCopyDrawable actionModeCutDrawable actionModeFindDrawable actionModePasteDrawable actionModePopupWindowStyle actionModeSelectAllDrawable actionModeShareDrawable actionModeSplitBackground actionModeStyle actionModeWebSearchDrawable actionOverflowButtonStyle actionOverflowMenuStyle activityChooserViewStyle alertDialogButtonGroupStyle alertDialogCenterButtons alertDialogStyle alertDialogTheme autoCompleteTextViewStyle borderlessButtonStyle buttonBarButtonStyle buttonBarNegativeButtonStyle buttonBarNeutralButtonStyle buttonBarPositiveButtonStyle buttonBarStyle buttonStyle buttonStyleSmall checkboxStyle checkedTextViewStyle colorAccent colorBackgroundFloating colorButtonNormal colorControlActivated colorControlHighlight colorControlNormal colorError colorPrimary colorPrimaryDark colorSwitchThumbNormal controlBackground dialogCornerRadius dialogPreferredPadding dialogTheme dividerHorizontal dividerVertical dropDownListViewStyle dropdownListPreferredItemHeight editTextBackground editTextColor editTextStyle homeAsUpIndicator imageButtonStyle listChoiceBackgroundIndicator listChoiceIndicatorMultipleAnimated listChoiceIndicatorSingleAnimated listDividerAlertDialog listMenuViewStyle listPopupWindowStyle listPreferredItemHeight listPreferredItemHeightLarge listPreferredItemHeightSmall listPreferredItemPaddingEnd listPreferredItemPaddingLeft listPreferredItemPaddingRight listPreferredItemPaddingStart panelBackground panelMenuListTheme panelMenuListWidth popupMenuStyle popupWindowStyle radioButtonStyle ratingBarStyle ratingBarStyleIndicator ratingBarStyleSmall searchViewStyle seekBarStyle selectableItemBackground selectableItemBackgroundBorderless spinnerDropDownItemStyle spinnerStyle switchStyle textAppearanceLargePopupMenu textAppearanceListItem textAppearanceListItemSecondary textAppearanceListItemSmall textAppearancePopupMenuHeader textAppearanceSearchResultSubtitle textAppearanceSearchResultTitle textAppearanceSmallPopupMenu textColorAlertDialogListItem textColorSearchUrl toolbarNavigationButtonStyle toolbarStyle tooltipForegroundColor tooltipFrameBackground viewInflaterClass windowActionBar windowActionBarOverlay windowActionModeOverlay windowFixedHeightMajor windowFixedHeightMinor windowFixedWidthMajor windowFixedWidthMinor windowMinWidthMajor windowMinWidthMinor windowNoTitle
 styleable Badge backgroundColor badgeGravity badgeTextColor maxCharacterCount number
+styleable BezelImageView borderDrawable desaturateOnPress maskDrawable
 styleable BottomAppBar backgroundTint elevation fabAlignmentMode fabAnimationMode fabCradleMargin fabCradleRoundedCornerRadius fabCradleVerticalOffset hideOnScroll
 styleable BottomNavigationView backgroundTint elevation itemBackground itemHorizontalTranslationEnabled itemIconSize itemIconTint itemRippleColor itemTextAppearanceActive itemTextAppearanceInactive itemTextColor labelVisibilityMode menu
 styleable BottomSheetBehavior_Layout android_elevation backgroundTint behavior_expandedOffset behavior_fitToContents behavior_halfExpandedRatio behavior_hideable behavior_peekHeight behavior_saveFlags behavior_skipCollapsed shapeAppearance shapeAppearanceOverlay
