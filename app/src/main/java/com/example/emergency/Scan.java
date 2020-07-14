@@ -1,7 +1,5 @@
 package com.example.emergency;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -19,11 +17,18 @@ public class Scan extends choose {
             @Override
             public void onClick(View v) {
                 Log.i("myTag", "Data Saved");
-
-                starts();
+                captureScan();
+                //starts();
             }
         });
     }
+
+    public void captureScan() {
+        Intent intent = new Intent(this, cameraScan.class);
+        startActivity(intent);
+
+    }
+
     public void starts(){
         Intent intent= new Intent(this, DriveUpload.class);
         startActivity(intent);

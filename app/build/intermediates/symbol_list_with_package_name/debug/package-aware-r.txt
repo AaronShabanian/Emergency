@@ -1712,6 +1712,7 @@ id placeholder
 id progress_circular
 id progress_horizontal
 id radio
+id result
 id right
 id right_icon
 id right_side
@@ -1720,6 +1721,7 @@ id save
 id save_non_transition_alpha
 id save_overlay_view
 id scale
+id scanButton
 id scanner
 id screen
 id scroll
@@ -1780,6 +1782,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1882,6 +1885,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_access
+layout activity_camera_scan
 layout activity_choose
 layout activity_confirmed
 layout activity_drive_upload
