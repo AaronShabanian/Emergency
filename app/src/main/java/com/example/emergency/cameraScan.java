@@ -36,6 +36,7 @@ public class cameraScan extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera_scan);
         mImageView = (ImageView) findViewById(R.id.result);
+        Log.i("error","test");
 
     }
 
