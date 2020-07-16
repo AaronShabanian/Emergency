@@ -34,12 +34,15 @@ import java.io.FileInputStream;
 import static android.util.Log.println;
 
 public class textUpload extends upload {
+    BoxSession mSession = null;
     private Button save;
+    private BoxApiFile mFileApi;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text_upload);
         save= findViewById(R.id.save);
+        configureBox();
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -55,10 +58,18 @@ public class textUpload extends upload {
             }
         });
     }
+    public void configureBox(){
 
+        BoxConfig.CLIENT_ID = "eamauh3g5ff0dggp0geew0c2jme1vpwg";
+        BoxConfig.CLIENT_SECRET = "iMBBMDrz5quVYyIxxnFh9yJmEJtzJm2u";
+        BoxConfig.REDIRECT_URL = "https://localhost";
+        BoxSession session = new BoxSession(textUpload.this);
+        session.authenticate(this);
+        Log.i("auth","Authenticated");
+    }
     public void makeTextFile(Context context) throws IOException {
         File path = context.getFilesDir(); //internal storage path
-
+        String absolute = context.getFilesDir().getAbsolutePath();
         File file = new File(path, summary + ".txt"); //create File Object
         if (!file.exists()) {
             try {
@@ -87,15 +98,23 @@ public class textUpload extends upload {
 
         myWriter.close();
 
-        Log.i("file created?", file.exists() + "");
-        BoxConfig.CLIENT_ID = "eamauh3g5ff0dggp0geew0c2jme1vpwg";
-        BoxConfig.CLIENT_SECRET = "iMBBMDrz5quVYyIxxnFh9yJmEJtzJm2u";
-        BoxConfig.REDIRECT_URL = "https://thecoviddata.com/";
-        BoxSession session = new BoxSession(textUpload.this);
-        session.authenticate();
-
+        Log.i("Path", absolute);
+        InputStream uploadStream = new FileInputStream(
+                new File("/data/user/0/com.example.emergency/files/" + summary + ".txt"));
+        byte[] buffer = new byte[uploadStream.available()];
+        uploadStream.read(buffer);
+        String uploadName = "Doc1.txt";
+        Log.i("Path", "Done");
+        String destinationFolderId = "0";
+        try {
+            BoxRequestsFile.UploadFile request = mFileApi.getUploadRequest(uploadStream, uploadName, destinationFolderId);
+            final BoxFile uploadFileInfo = request.send();
+            Log.i("Success", "Uploaded " + uploadFileInfo.getName());
+        } catch (BoxException e) {
+            e.printStackTrace();
+            Log.w("Fail", "Failed");
+        }
     }
-
     public void goToConfirm(){
         Intent intent= new Intent(this, Confirmed.class);
         startActivity(intent);

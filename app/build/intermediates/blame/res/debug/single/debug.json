@@ -116,6 +116,10 @@
         "source": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
+        "source": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
         "merged": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
         "source": "C:\\Users\\a2sha\\AndroidStudioProjects\\Emergency\\app\\src\\main\\res\\layout\\activity_settings.xml"
     },
