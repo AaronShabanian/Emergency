@@ -77,16 +77,15 @@ public class textUpload extends upload {
 
         FileWriter myWriter = new FileWriter(file);
 
-        EditText company = (EditText) findViewById(R.id.companyEditText);
-        EditText docName = (EditText) findViewById(R.id.doctypeEditText);
-        EditText number = (EditText) findViewById(R.id.numberEditText);
-        EditText other = (EditText) findViewById(R.id.otherEditText);
-
+        EditText company =findViewById(R.id.companyEditText);
+        EditText docName =findViewById(R.id.doctypeEditText);
+        EditText number = findViewById(R.id.numberEditText);
+        EditText other =findViewById(R.id.otherEditText);
         String companyStr = "Company: " + company.getText().toString() + "\n";
         String docNameStr = "Document Name: " + docName.getText().toString() + "\n";
         String numStr = "Number: " + number.getText().toString() + "\n";
         String otherStr = "Other Information: " + other.getText().toString() + "\n";
-
+        Log.i("Company",companyStr);
         myWriter.write(companyStr);
         myWriter.write(docNameStr);
         myWriter.write(numStr);
@@ -96,7 +95,7 @@ public class textUpload extends upload {
 
         Log.i("Path", absolute);
         InputStream uploadStream = new FileInputStream(
-                new File("/data/user/0/com.example.emergency/files/" + summary + ".txt"));
+                file);
         byte[] buffer = new byte[uploadStream.available()];
         uploadStream.read(buffer);
         String uploadName = summary+".txt";
