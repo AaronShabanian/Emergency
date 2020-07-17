@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.StrictMode;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -30,6 +31,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.FileInputStream;
+import java.net.HttpURLConnection;
 
 import static android.util.Log.println;
 
@@ -41,8 +43,11 @@ public class textUpload extends upload {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text_upload);
+        if (android.os.Build.VERSION.SDK_INT > 9) {
+            StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+            StrictMode.setThreadPolicy(policy);
+        }
         save= findViewById(R.id.save);
-        configureBox();
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -57,15 +62,6 @@ public class textUpload extends upload {
                 goToConfirm();
             }
         });
-    }
-    public void configureBox(){
-
-        BoxConfig.CLIENT_ID = "eamauh3g5ff0dggp0geew0c2jme1vpwg";
-        BoxConfig.CLIENT_SECRET = "iMBBMDrz5quVYyIxxnFh9yJmEJtzJm2u";
-        BoxConfig.REDIRECT_URL = "https://localhost";
-        BoxSession session = new BoxSession(textUpload.this);
-        session.authenticate(this);
-        Log.i("auth","Authenticated");
     }
     public void makeTextFile(Context context) throws IOException {
         File path = context.getFilesDir(); //internal storage path
@@ -103,11 +99,18 @@ public class textUpload extends upload {
                 new File("/data/user/0/com.example.emergency/files/" + summary + ".txt"));
         byte[] buffer = new byte[uploadStream.available()];
         uploadStream.read(buffer);
-        String uploadName = "Doc1.txt";
+        String uploadName = summary+".txt";
+        BoxConfig.CLIENT_ID = "eamauh3g5ff0dggp0geew0c2jme1vpwg";
+        BoxConfig.CLIENT_SECRET = "iMBBMDrz5quVYyIxxnFh9yJmEJtzJm2u";
+        BoxConfig.REDIRECT_URL = "https://localhost";
+        BoxSession session = new BoxSession(textUpload.this);
+        session.authenticate();
+        Log.i("auth","Authenticated");
+        BoxApiFile fileApi = new BoxApiFile(session);
         Log.i("Path", "Done");
         String destinationFolderId = "0";
         try {
-            BoxRequestsFile.UploadFile request = mFileApi.getUploadRequest(uploadStream, uploadName, destinationFolderId);
+            BoxRequestsFile.UploadFile request = fileApi.getUploadRequest(uploadStream, uploadName, destinationFolderId);
             final BoxFile uploadFileInfo = request.send();
             Log.i("Success", "Uploaded " + uploadFileInfo.getName());
         } catch (BoxException e) {
