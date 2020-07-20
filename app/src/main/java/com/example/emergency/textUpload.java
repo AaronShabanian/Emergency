@@ -90,14 +90,12 @@ public class textUpload extends upload {
         myWriter.write(docNameStr);
         myWriter.write(numStr);
         myWriter.write(otherStr);
-
+        myWriter.flush();
         myWriter.close();
 
         Log.i("Path", absolute);
         InputStream uploadStream = new FileInputStream(
                 file);
-        byte[] buffer = new byte[uploadStream.available()];
-        uploadStream.read(buffer);
         String uploadName = summary+".txt";
         BoxConfig.CLIENT_ID = "eamauh3g5ff0dggp0geew0c2jme1vpwg";
         BoxConfig.CLIENT_SECRET = "iMBBMDrz5quVYyIxxnFh9yJmEJtzJm2u";
