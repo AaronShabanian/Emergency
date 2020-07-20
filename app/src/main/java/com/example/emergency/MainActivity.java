@@ -1,12 +1,12 @@
 package com.example.emergency;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     private Button button;
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void openkin(){
-        Intent intent= new Intent(this, access.class);
+        Intent intent= new Intent(this, upload.class);
         startActivity(intent);
     }
 }

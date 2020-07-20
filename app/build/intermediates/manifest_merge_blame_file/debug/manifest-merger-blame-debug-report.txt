@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml
+8-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml
+9-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml
 10
 11    <!--
 12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -16,61 +16,61 @@
 14         location permissions for the "MyLocation" functionality.
 15    -->
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:10:5-79
-16-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:10:22-76
+16-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:10:22-76
 17    <uses-permission android:name="android.permission.INTERNET" />
-17-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:11:5-67
-17-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:11:22-64
+17-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:11:22-64
 18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:12:5-79
-18-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:12:22-76
+18-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:12:5-79
+18-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:12:22-76
 19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-19-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:13:5-81
-19-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:13:22-78
+19-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:13:5-81
+19-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:13:22-78
 20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-20-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:14:5-80
-20-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:14:22-77
+20-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:14:5-80
+20-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:14:22-77
 21    <uses-permission android:name="android.permission.CAMERA" />
-21-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:15:5-65
-21-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:15:22-62
+21-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:15:5-65
+21-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:15:22-62
 22
 23    <uses-feature
-23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 24        android:glEsVersion="0x00020000"
-24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 25        android:required="true" />
-25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 26
 27    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-27-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:24:5-68
-27-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:24:22-65
+27-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:24:5-68
+27-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:24:22-65
 28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-28-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
-28-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+28-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+28-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
 29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-29-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:26:5-110
-29-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:26:22-107
+29-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:26:5-110
+29-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:26:22-107
 30
 31    <application
-31-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:17:5-58:19
+31-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:17:5-58:19
 32        android:allowBackup="true"
-32-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:18:9-35
+32-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:18:9-35
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-33-->[androidx.core:core:1.1.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\b2b51ad2129f7ae88186ad90508b79ab\core-1.1.0\AndroidManifest.xml:24:18-86
+33-->[androidx.core:core:1.1.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\b2b51ad2129f7ae88186ad90508b79ab\core-1.1.0\AndroidManifest.xml:24:18-86
 34        android:debuggable="true"
 35        android:icon="@mipmap/ic_launcher"
-35-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:19:9-43
+35-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:19:9-43
 36        android:label="@string/app_name"
-36-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:20:9-41
+36-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:20:9-41
 37        android:roundIcon="@mipmap/ic_launcher_round"
-37-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:21:9-54
+37-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:21:9-54
 38        android:supportsRtl="true"
-38-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:22:9-35
+38-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:22:9-35
 39        android:testOnly="true"
 40        android:theme="@style/AppTheme"
-40-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:23:9-40
+40-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:23:9-40
 41        android:usesCleartextTraffic="true" >
-41-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:24:9-44
+41-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:24:9-44
 42
 43        <!--
 44             The API key for Google Maps-based APIs is defined as a string resource.
@@ -81,184 +81,184 @@
 49             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 50        -->
 51        <meta-data
-51-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:34:9-36:55
+51-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:34:9-36:55
 52            android:name="com.google.android.geo.API_KEY"
-52-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:35:13-58
+52-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:35:13-58
 53            android:value="@string/google_maps_key" />
-53-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:36:13-52
+53-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:36:13-52
 54
 55        <activity
-55-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:38:9-40:68
+55-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:38:9-40:68
 56            android:name="com.example.emergency.MapsActivity"
-56-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:39:13-41
+56-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:39:13-41
 57            android:label="@string/title_activity_maps" />
-57-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:40:13-56
+57-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:40:13-56
 58        <activity android:name="com.example.emergency.cameraScan" />
-58-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:41:9-48
-58-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:41:19-45
+58-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:41:9-48
+58-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:41:19-45
 59        <activity android:name="com.example.emergency.access" />
-59-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:42:9-44
-59-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:42:19-41
+59-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:42:9-44
+59-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:42:19-41
 60        <activity android:name="com.example.emergency.DriveUpload" />
-60-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:43:9-49
-60-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:43:19-46
+60-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:43:9-49
+60-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:43:19-46
 61        <activity android:name="com.example.emergency.Confirmed" />
-61-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:44:9-47
-61-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:44:19-44
+61-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:44:9-47
+61-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:44:19-44
 62        <activity android:name="com.example.emergency.settings" />
-62-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:45:9-46
-62-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:45:19-43
+62-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:45:9-46
+62-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:45:19-43
 63        <activity android:name="com.example.emergency.Scan" />
-63-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:46:9-42
-63-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:46:19-39
+63-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:46:9-42
+63-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:46:19-39
 64        <activity android:name="com.example.emergency.textUpload" />
-64-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:47:9-48
-64-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:47:19-45
+64-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:47:9-48
+64-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:47:19-45
 65        <activity android:name="com.example.emergency.choose" />
-65-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:48:9-44
-65-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:48:19-41
+65-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:48:9-44
+65-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:48:19-41
 66        <activity android:name="com.example.emergency.insurance" />
-66-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:49:9-47
-66-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:49:19-44
+66-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:49:9-47
+66-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:49:19-44
 67        <activity android:name="com.example.emergency.upload" />
-67-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:50:9-44
-67-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:50:19-41
+67-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:50:9-44
+67-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:50:19-41
 68        <activity android:name="com.example.emergency.MainActivity" >
-68-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:51:9-57:20
-68-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:51:19-47
+68-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:51:9-57:20
+68-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:51:19-47
 69            <intent-filter>
-69-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:52:13-56:29
+69-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:52:13-56:29
 70                <action android:name="android.intent.action.MAIN" />
-70-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:53:17-69
-70-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:53:25-66
+70-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:53:17-69
+70-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:53:25-66
 71
 72                <category android:name="android.intent.category.LAUNCHER" />
-72-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:55:17-77
-72-->C:\Users\a2sha\AndroidStudioProjects\Emergency\app\src\main\AndroidManifest.xml:55:27-74
+72-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:55:17-77
+72-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:55:27-74
 73            </intent-filter>
 74        </activity>
 75        <!-- Needs to be explicitly declared on P+ -->
 76        <uses-library
-76-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+76-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 77            android:name="org.apache.http.legacy"
-77-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+77-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 78            android:required="false" />
-78-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+78-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 79
 80        <activity
-80-->[com.box:box-android-sdk:4.2.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\6500170664ca0996f24a9dcef66ed767\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:15:9-18:39
+80-->[com.box:box-android-sdk:4.2.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2a4d9a6848f6fcfebc292fb97ef6e3eb\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:15:9-18:39
 81            android:name="com.box.androidsdk.content.auth.OAuthActivity"
-81-->[com.box:box-android-sdk:4.2.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\6500170664ca0996f24a9dcef66ed767\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:16:13-73
+81-->[com.box:box-android-sdk:4.2.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2a4d9a6848f6fcfebc292fb97ef6e3eb\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:16:13-73
 82            android:configChanges="orientation|screenSize"
-82-->[com.box:box-android-sdk:4.2.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\6500170664ca0996f24a9dcef66ed767\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:17:13-59
+82-->[com.box:box-android-sdk:4.2.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2a4d9a6848f6fcfebc292fb97ef6e3eb\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:17:13-59
 83            android:exported="true" />
-83-->[com.box:box-android-sdk:4.2.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\6500170664ca0996f24a9dcef66ed767\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:18:13-36
+83-->[com.box:box-android-sdk:4.2.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2a4d9a6848f6fcfebc292fb97ef6e3eb\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:18:13-36
 84        <activity
-84-->[com.box:box-android-sdk:4.2.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\6500170664ca0996f24a9dcef66ed767\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:19:9-21:51
+84-->[com.box:box-android-sdk:4.2.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2a4d9a6848f6fcfebc292fb97ef6e3eb\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:19:9-21:51
 85            android:name="com.box.androidsdk.content.auth.BlockedIPErrorActivity"
-85-->[com.box:box-android-sdk:4.2.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\6500170664ca0996f24a9dcef66ed767\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:20:13-82
+85-->[com.box:box-android-sdk:4.2.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2a4d9a6848f6fcfebc292fb97ef6e3eb\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:20:13-82
 86            android:launchMode="singleInstance" />
-86-->[com.box:box-android-sdk:4.2.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\6500170664ca0996f24a9dcef66ed767\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:21:13-48
+86-->[com.box:box-android-sdk:4.2.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2a4d9a6848f6fcfebc292fb97ef6e3eb\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:21:13-48
 87
 88        <service
-88-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:27:9-33:19
+88-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:27:9-33:19
 89            android:name="com.google.firebase.components.ComponentDiscoveryService"
-89-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:28:13-84
+89-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:28:13-84
 90            android:directBootAware="true"
-90-->[com.google.firebase:firebase-common:19.3.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+90-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
 91            android:exported="false" >
-91-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:29:13-37
+91-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:29:13-37
 92            <meta-data
-92-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:30:13-32:85
+92-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:30:13-32:85
 93                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-93-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:31:17-139
+93-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:31:17-139
 94                android:value="com.google.firebase.components.ComponentRegistrar" />
-94-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:32:17-82
+94-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:32:17-82
 95            <meta-data
-95-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+95-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
 96                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-96-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+96-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
 97                android:value="com.google.firebase.components.ComponentRegistrar" />
-97-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+97-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
 98            <meta-data
-98-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\2ebd4a41fa7c7daceab7065f37bffed6\jetified-firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+98-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2ebd4a41fa7c7daceab7065f37bffed6\jetified-firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
 99                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-99-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\2ebd4a41fa7c7daceab7065f37bffed6\jetified-firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+99-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2ebd4a41fa7c7daceab7065f37bffed6\jetified-firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
 100                android:value="com.google.firebase.components.ComponentRegistrar" />
-100-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\2ebd4a41fa7c7daceab7065f37bffed6\jetified-firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+100-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2ebd4a41fa7c7daceab7065f37bffed6\jetified-firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
 101        </service>
 102
 103        <receiver
-103-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+103-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
 104            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-104-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+104-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
 105            android:exported="true"
-105-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+105-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
 106            android:permission="com.google.android.c2dm.permission.SEND" >
-106-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+106-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
 107            <intent-filter>
-107-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+107-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
 108                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-108-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
-108-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+108-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+108-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
 109            </intent-filter>
 110        </receiver>
 111
 112        <activity
-112-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+112-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 113            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-113-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+113-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 114            android:exported="false"
-114-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+114-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 115            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-115-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+115-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 116
 117        <receiver
-117-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:29:9-33:20
+117-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:29:9-33:20
 118            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-118-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:30:13-85
+118-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:30:13-85
 119            android:enabled="true"
-119-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:31:13-35
+119-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:31:13-35
 120            android:exported="false" >
-120-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:32:13-37
+120-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:32:13-37
 121        </receiver>
 122
 123        <service
-123-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:35:9-38:40
+123-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:35:9-38:40
 124            android:name="com.google.android.gms.measurement.AppMeasurementService"
-124-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:36:13-84
+124-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:36:13-84
 125            android:enabled="true"
-125-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:37:13-35
+125-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:37:13-35
 126            android:exported="false" />
-126-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:38:13-37
+126-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:38:13-37
 127        <service
-127-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:39:9-43:72
+127-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:39:9-43:72
 128            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-128-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:40:13-87
+128-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:40:13-87
 129            android:enabled="true"
-129-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:41:13-35
+129-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:41:13-35
 130            android:exported="false"
-130-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:42:13-37
+130-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:42:13-37
 131            android:permission="android.permission.BIND_JOB_SERVICE" />
-131-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:43:13-69
+131-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:43:13-69
 132
 133        <provider
-133-->[com.google.firebase:firebase-common:19.3.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+133-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
 134            android:name="com.google.firebase.provider.FirebaseInitProvider"
-134-->[com.google.firebase:firebase-common:19.3.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+134-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
 135            android:authorities="com.example.emergency.firebaseinitprovider"
-135-->[com.google.firebase:firebase-common:19.3.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+135-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
 136            android:exported="false"
-136-->[com.google.firebase:firebase-common:19.3.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+136-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
 137            android:initOrder="100" />
-137-->[com.google.firebase:firebase-common:19.3.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+137-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
 138
 139        <meta-data
-139-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+139-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 140            android:name="com.google.android.gms.version"
-140-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+140-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 141            android:value="@integer/google_play_services_version" />
-141-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\a2sha\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+141-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 142    </application>
 143
 144</manifest>
