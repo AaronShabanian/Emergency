@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void openkin(){
-        Intent intent= new Intent(this, upload.class);
+        Intent intent= new Intent(this, access.class);
         startActivity(intent);
     }
 }
