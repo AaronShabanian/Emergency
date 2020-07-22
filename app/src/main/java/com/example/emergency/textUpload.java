@@ -83,7 +83,7 @@ public class textUpload extends upload {
         Log.i("Path", absolute);
         InputStream uploadStream = new FileInputStream(
                 file);
-      
+
         String uploadName = summary+".txt";
         BoxConfig.CLIENT_ID = "eamauh3g5ff0dggp0geew0c2jme1vpwg";
         BoxConfig.CLIENT_SECRET = "iMBBMDrz5quVYyIxxnFh9yJmEJtzJm2u";
