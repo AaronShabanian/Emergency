@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#ff59a9ff</color>
+    <color name="bottom_background_color">#ffc4c2bc</color>
+    <color name="orange">#ffff900d</color>
+    <color name="polygonViewCircleBackground">#90e5f8ff</color>
+    <color name="polygonViewCircleStrokeColor">#ff59a9ff</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bottom_bar_padding">15dp</dimen>
+    <dimen name="polygonViewCircleWidth">32dp</dimen>
+    <dimen name="polygonViewStrokeWidth">2dp</dimen>
+    <dimen name="scanPadding">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">ScanLibrary</string>
+    <string name="applying_filter">Applying filter</string>
+    <string name="cantCrop">Cant crop the image, change the points</string>
+    <string name="done">Save</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading">Loading</string>
+    <string name="low_memory">Low Memory</string>
+    <string name="low_memory_message">Your phone is low on memory, you may feel some lags while editing images.</string>
+    <string name="ok">Ok</string>
+    <string name="scan">Next</string>
+    <string name="scanning">Scanning</string>
+</resources>

@@ -23,7 +23,6 @@ import com.box.androidsdk.content.requests.BoxRequestsFile;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.Image;
-import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.pdf.PdfWriter;
 
 import java.io.ByteArrayOutputStream;
@@ -106,7 +105,7 @@ public class cameraScan extends Activity {
 
                 File path = this.getFilesDir(); //internal storage path
                 String absolute = this.getFilesDir().getAbsolutePath();
-                file = new File(path, "myPDF" + ".pdf"); //create File Object
+                file = new File(path, "myScannedImage" + ".pdf"); //create File Object
 
                 Document document= new Document();
                 PdfWriter.getInstance(document,new FileOutputStream(file));
@@ -114,7 +113,7 @@ public class cameraScan extends Activity {
                 ByteArrayOutputStream stream = new ByteArrayOutputStream();
                 mImageBitmap.compress(Bitmap.CompressFormat.JPEG, 100 , stream);
                 Image image = Image.getInstance(stream.toByteArray());
-                document.add(new Paragraph("Your Heading for the Image Goes Here"));
+               // document.add(new Paragraph("Your Heading for the Image Goes Here"));
                 document.add(image);
                 document.close();
 
@@ -153,7 +152,8 @@ public class cameraScan extends Activity {
 
         }
 
-
+        Intent i = new Intent(this, Confirmed.class);
+        startActivity(i);
 
 
     }
